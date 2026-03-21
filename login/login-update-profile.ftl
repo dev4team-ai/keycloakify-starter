@@ -715,12 +715,11 @@ function decodeHtmlEntities(htmlStr){
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="icon" type="image/png" sizes="32x32" href="${xKeycloakify.resourcesPath}/dist/favicon-32x32.png">
-      <script type="module" crossorigin="" src="${xKeycloakify.resourcesPath}/dist/assets/index-CL0ZqKZ-.js"></script>
+      <script type="module" crossorigin="" src="${xKeycloakify.resourcesPath}/dist/assets/index-CKw_mnpI.js"></script>
     </head>
 
     <body>
         <div id="root"></div>
-
     
 
 </body></html>
