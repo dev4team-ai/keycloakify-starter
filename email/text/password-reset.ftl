@@ -1,11 +1,13 @@
 <#ftl output_format="plainText">
-<#--
-  WARNING: Before modifying this file, run the following command:
-  
-  $ npx keycloakify own --path "email/text/password-reset.ftl"
-  
-  This file is provided by @keycloakify/email-native version 260007.0.0.
-  It was copied into your repository by the postinstall script: `keycloakify sync-extensions`.
--->
+Сброс пароля
 
-${msg("passwordResetBody",link, linkExpiration, realmName, linkExpirationFormatter(linkExpiration))}
+Кто-то только что запросил изменение пароля от вашей учётной записи AiChatter.
+Если это были вы, перейдите по следующей ссылке, чтобы сбросить его:
+
+${link}
+
+Эта ссылка устареет через ${linkExpiration} минут.
+
+Если вы не хотите сбрасывать пароль, просто проигнорируйте это письмо и ничего не изменится.
+
+© 2026 AiChatter. Все права защищены.
